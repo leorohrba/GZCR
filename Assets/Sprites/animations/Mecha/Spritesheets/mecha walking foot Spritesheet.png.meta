@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 086e469afa0ea3e5e85b2fdd509a7395
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2091115035094111510
+    second: mecha walking foot Spritesheet_0
+  - first:
+      213: -3241777373758569341
+    second: mecha walking foot Spritesheet_1
+  - first:
+      213: -4298766627325984620
+    second: mecha walking foot Spritesheet_2
+  - first:
+      213: 5898867870877707313
+    second: mecha walking foot Spritesheet_3
+  - first:
+      213: -6939783226645558275
+    second: mecha walking foot Spritesheet_4
+  - first:
+      213: -7901402289228897340
+    second: mecha walking foot Spritesheet_5
+  - first:
+      213: -2989087787403686198
+    second: mecha walking foot Spritesheet_6
+  - first:
+      213: -4215982701431782703
+    second: mecha walking foot Spritesheet_7
+  - first:
+      213: 8815986910773447515
+    second: mecha walking foot Spritesheet_8
+  - first:
+      213: -2896045497809074799
+    second: mecha walking foot Spritesheet_9
+  - first:
+      213: 7738588266769921413
+    second: mecha walking foot Spritesheet_10
+  - first:
+      213: -7676014695287019663
+    second: mecha walking foot Spritesheet_11
+  - first:
+      213: 7369237312223095191
+    second: mecha walking foot Spritesheet_12
+  - first:
+      213: 545788808698491686
+    second: mecha walking foot Spritesheet_13
+  - first:
+      213: -1917660860637423504
+    second: mecha walking foot Spritesheet_14
+  - first:
+      213: 8246984998643559318
+    second: mecha walking foot Spritesheet_15
+  - first:
+      213: -8984405259751946026
+    second: mecha walking foot Spritesheet_16
+  - first:
+      213: -8033977059953897939
+    second: mecha walking foot Spritesheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 11
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61553439b02250d10800000000000000
+      internalID: 2091115035094111510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 10
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384c83c77a4e203d0800000000000000
+      internalID: -3241777373758569341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 10
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4904eed3786b754c0800000000000000
+      internalID: -4298766627325984620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 10
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c61a4331dfcd150800000000000000
+      internalID: 5898867870877707313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 10
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbc3958cefe0bf90800000000000000
+      internalID: -6939783226645558275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 10
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3ad0b3b74985290800000000000000
+      internalID: -7901402289228897340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 10
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace48558e70a486d0800000000000000
+      internalID: -2989087787403686198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 10
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d287fdf112dd75c0800000000000000
+      internalID: -4215982701431782703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 10
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b0521e26da85a70800000000000000
+      internalID: 8815986910773447515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 11
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19588b1b6fd2fc7d0800000000000000
+      internalID: -2896045497809074799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 10
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585b3df170df46b60800000000000000
+      internalID: 7738588266769921413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 10
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1772dbccd41597590800000000000000
+      internalID: -7676014695287019663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 10
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799ac94aa4ac44660800000000000000
+      internalID: 7369237312223095191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 10
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6237bd0a708039700800000000000000
+      internalID: 545788808698491686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 10
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07859028b991365e0800000000000000
+      internalID: -1917660860637423504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 10
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bef10792d237270800000000000000
+      internalID: 8246984998643559318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 10
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d88556840bf05380800000000000000
+      internalID: -8984405259751946026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha walking foot Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 10
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e8fc70e64918090800000000000000
+      internalID: -8033977059953897939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mecha walking foot Spritesheet_0: 2091115035094111510
+      mecha walking foot Spritesheet_1: -3241777373758569341
+      mecha walking foot Spritesheet_10: 7738588266769921413
+      mecha walking foot Spritesheet_11: -7676014695287019663
+      mecha walking foot Spritesheet_12: 7369237312223095191
+      mecha walking foot Spritesheet_13: 545788808698491686
+      mecha walking foot Spritesheet_14: -1917660860637423504
+      mecha walking foot Spritesheet_15: 8246984998643559318
+      mecha walking foot Spritesheet_16: -8984405259751946026
+      mecha walking foot Spritesheet_17: -8033977059953897939
+      mecha walking foot Spritesheet_2: -4298766627325984620
+      mecha walking foot Spritesheet_3: 5898867870877707313
+      mecha walking foot Spritesheet_4: -6939783226645558275
+      mecha walking foot Spritesheet_5: -7901402289228897340
+      mecha walking foot Spritesheet_6: -2989087787403686198
+      mecha walking foot Spritesheet_7: -4215982701431782703
+      mecha walking foot Spritesheet_8: 8815986910773447515
+      mecha walking foot Spritesheet_9: -2896045497809074799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

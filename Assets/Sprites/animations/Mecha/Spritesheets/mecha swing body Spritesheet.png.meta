@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: dfea1f80c9746c19189df10f3040c2fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3501885781149425362
+    second: mecha swing body Spritesheet1_0
+  - first:
+      213: -7762797184037056893
+    second: mecha swing body Spritesheet1_1
+  - first:
+      213: 3495698268407274167
+    second: mecha swing body Spritesheet1_2
+  - first:
+      213: 1582653569774468649
+    second: mecha swing body Spritesheet1_3
+  - first:
+      213: -8039223364958086587
+    second: mecha swing body Spritesheet1_4
+  - first:
+      213: 4390608579091135250
+    second: mecha swing body Spritesheet1_5
+  - first:
+      213: -7300478735509835976
+    second: mecha swing body Spritesheet1_6
+  - first:
+      213: 832090781218727162
+    second: mecha swing body Spritesheet1_7
+  - first:
+      213: -5857742377322042036
+    second: mecha swing body Spritesheet1_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mecha swing body Spritesheet1_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 14
+        width: 67
+        height: 62
+      alignment: 9
+      pivot: {x: 0.41, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21e8929f6dc66fc0800000000000000
+      internalID: -3501885781149425362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha swing body Spritesheet1_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 14
+        width: 67
+        height: 61
+      alignment: 9
+      pivot: {x: 0.41, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e81161711054490800000000000000
+      internalID: -7762797184037056893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha swing body Spritesheet1_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 14
+        width: 67
+        height: 61
+      alignment: 9
+      pivot: {x: 0.41, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e39e45907b6f510800000000000000
+      internalID: 1582653569774468649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha swing body Spritesheet1_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 14
+        width: 67
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a17a571f0fe6090800000000000000
+      internalID: -8039223364958086587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha swing body Spritesheet1_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 14
+        width: 67
+        height: 54
+      alignment: 9
+      pivot: {x: 0.41, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fa4a7054d7faa90800000000000000
+      internalID: -7300478735509835976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha swing body Spritesheet1_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 14
+        width: 59
+        height: 42
+      alignment: 9
+      pivot: {x: 0.465, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af46b6b282e2c8b00800000000000000
+      internalID: 832090781218727162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mecha swing body Spritesheet1_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 14
+        width: 64
+        height: 53
+      alignment: 9
+      pivot: {x: 0.428, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4da7fde75e15bea0800000000000000
+      internalID: -5857742377322042036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 239fe1d4df310bed3a59d05e70f3545e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mecha swing body Spritesheet1_0: -3501885781149425362
+      mecha swing body Spritesheet1_1: -7762797184037056893
+      mecha swing body Spritesheet1_2: 3495698268407274167
+      mecha swing body Spritesheet1_3: 1582653569774468649
+      mecha swing body Spritesheet1_4: -8039223364958086587
+      mecha swing body Spritesheet1_5: 4390608579091135250
+      mecha swing body Spritesheet1_6: -7300478735509835976
+      mecha swing body Spritesheet1_7: 832090781218727162
+      mecha swing body Spritesheet1_8: -5857742377322042036
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
