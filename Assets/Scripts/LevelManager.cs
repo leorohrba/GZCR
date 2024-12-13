@@ -21,22 +21,25 @@ public class LevelManager : MonoBehaviour
     {
         if (scene.name == "LevelScene")
         {
-            string selectedPrefab = PlayerPrefs.GetString("SelectedPrefab", "");
-            Debug.Log("Selected Prefab: " + selectedPrefab);
+
+            // Resume the game
+            Time.timeScale = 1f;
+            string selectedPrefabName = PlayerPrefs.GetString("SelectedPrefab", "");
+            Debug.Log("Selected Prefab: " + selectedPrefabName);
 
             GameObject instantiatedPrefab = null;
 
-            if (selectedPrefab == "Tank")
+            if (selectedPrefabName == "Tank")
             {
                 instantiatedPrefab = Instantiate(tankPrefab, Vector3.zero, Quaternion.identity);
                 instantiatedPrefab.name = "Tank(Clone)"; // Set a custom name
             }
-            else if (selectedPrefab == "Jet")
+            else if (selectedPrefabName == "Jet")
             {
                 instantiatedPrefab = Instantiate(jetPrefab, Vector3.zero, Quaternion.identity);
                 instantiatedPrefab.name = "Jet(Clone)"; // Set a custom name
             }
-            else if (selectedPrefab == "Mecha")
+            else if (selectedPrefabName == "Mecha")
             {
                 instantiatedPrefab = Instantiate(mechaPrefab, Vector3.zero, Quaternion.identity);
                 instantiatedPrefab.name = "Mecha(Clone)"; // Set a custom name

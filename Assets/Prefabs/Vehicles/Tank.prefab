@@ -108,7 +108,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c322bbe3bf6b3e9ffbcd3d9a15ecb5a7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -131,8 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf2090e1622c72a19eb86bc24a84b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
-  rotationSpeed: 300
+  moveSpeed: 5
+  rotationSpeed: 200
+  maxSpeed: 10
+  maxAngularSpeed: 300
 --- !u!95 &8846712074128875628
 Animator:
   serializedVersion: 7
@@ -334,6 +336,9 @@ MonoBehaviour:
   firePoint: {fileID: 4014179833534439242}
   projectileSpeed: 15
   animationDuration: 0
+  parentTransform: {fileID: 0}
+  tankRigidbody: {fileID: 0}
+  recoilForce: 5
 --- !u!95 &3665723312806736319
 Animator:
   serializedVersion: 7

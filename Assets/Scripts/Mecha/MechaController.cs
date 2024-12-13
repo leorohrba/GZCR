@@ -2,24 +2,26 @@ using UnityEngine;
 
 public class MechaController : MonoBehaviour
 {
-    public float moveSpeed = 15f;
-    public float rotationSpeed = 250f;
-    private Animator animator;
+    public float moveSpeed = 5f;
+    public float rotationSpeed = 200f;
+    public float maxSpeed = 10f;
+    public float maxAngularSpeed = 100f;
 
     private Rigidbody2D rb;
+    private Animator animator;
+    private float moveInput;
+    private float rotationInput;
 
     void Start()
     {
-        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Handle movement and rotation directly with keys
-        float moveInput = 0f;
-        float rotationInput = 0f;
+        moveInput = Input.GetAxis("Vertical"); // Forward/backward input
+        rotationInput = 0f;
 
         if ((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.UpArrow))) // Move forward
         {
@@ -45,10 +47,6 @@ public class MechaController : MonoBehaviour
             rotationInput = -1f;
         }
 
-        // Apply movement (forward/backward)
-        Vector2 forward = transform.up * moveInput * moveSpeed * Time.deltaTime;
-        rb.MovePosition(rb.position + forward);
-
         if (Input.GetKeyUp(KeyCode.W) ||
             Input.GetKeyUp(KeyCode.S) || 
             Input.GetKeyUp(KeyCode.A) || 
@@ -58,8 +56,28 @@ public class MechaController : MonoBehaviour
         {
             animator.SetBool("IsWalking", false);
         }
-        // Apply rotation
-        float rotation = rotationInput * rotationSpeed * Time.deltaTime;
+    }
+
+    void FixedUpdate()
+    {
+        // Calculate the desired velocity
+        Vector2 forward = transform.up * moveInput * moveSpeed;
+        rb.linearVelocity = forward;
+
+        // Apply rotation using MoveRotation
+        float rotation = rotationInput * rotationSpeed * Time.fixedDeltaTime;
         rb.MoveRotation(rb.rotation + rotation);
+
+        // Clamp the linear velocity
+        if (rb.linearVelocity.magnitude > maxSpeed)
+        {
+            rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
+        }
+
+        // Clamp the angular velocity
+        if (Mathf.Abs(rb.angularVelocity) > maxAngularSpeed)
+        {
+            rb.angularVelocity = Mathf.Sign(rb.angularVelocity) * maxAngularSpeed;
+        }
     }
 }
