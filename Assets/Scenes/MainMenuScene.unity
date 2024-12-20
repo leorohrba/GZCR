@@ -595,9 +595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a84a06e971015f84bf9b85b127027ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabTank: {fileID: 5490238484415666504, guid: df21e653c23b4ed7dbf5dac853d8af48, type: 3}
+  prefabTank: {fileID: 424655098651106623, guid: 54df16c59d4b171a096af10e5974b6c6, type: 3}
   prefabJet: {fileID: 6222282742810680782, guid: 050038f8fecb9755b92125193b78ce54, type: 3}
-  prefabMecha: {fileID: 6998542482217976282, guid: eafb4f03b4af354899dff457ac1b1cfa, type: 3}
+  prefabMecha: {fileID: 3253816369416091964, guid: 76bdb0bc40741ba889b35334d6c0f2a6, type: 3}
 --- !u!4 &674194959
 Transform:
   m_ObjectHideFlags: 0
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedPrefab: {fileID: 0}
-  prefabTank: {fileID: 5490238484415666504, guid: df21e653c23b4ed7dbf5dac853d8af48, type: 3}
+  prefabTank: {fileID: 424655098651106623, guid: 54df16c59d4b171a096af10e5974b6c6, type: 3}
   prefabJet: {fileID: 6222282742810680782, guid: 050038f8fecb9755b92125193b78ce54, type: 3}
-  prefabMecha: {fileID: 6998542482217976282, guid: eafb4f03b4af354899dff457ac1b1cfa, type: 3}
+  prefabMecha: {fileID: 3253816369416091964, guid: 76bdb0bc40741ba889b35334d6c0f2a6, type: 3}
 --- !u!4 &719133598
 Transform:
   m_ObjectHideFlags: 0

@@ -43,10 +43,22 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
+    uniqueID: 2213164605
+    locked: 0
+  - name: Ground
     uniqueID: 4151217379
+    locked: 0
+  - name: WalkInFront
+    uniqueID: 802649787
+    locked: 0
+  - name: Collision
+    uniqueID: 738876371
     locked: 0
   - name: Players
     uniqueID: 2223673691
+    locked: 0
+  - name: WalkBehind
+    uniqueID: 1048647573
     locked: 0
   - name: Effects
     uniqueID: 788207169

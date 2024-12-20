@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//let camera follow target
+// Let camera follow target
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;
@@ -19,6 +19,12 @@ public class CameraFollow : MonoBehaviour
         if (target != null)
         {
             offset = transform.position - target.position;
+            Debug.Log("Target found: " + target.name);
+            Debug.Log("Offset calculated: " + offset);
+        }
+        else
+        {
+            Debug.LogError("No game object found with the 'Player' tag.");
         }
     }
 
@@ -28,28 +34,23 @@ public class CameraFollow : MonoBehaviour
 
         targetPos = target.position + offset;
 
-        // Optional: Clamp camera position to keep it within certain bounds
-        targetPos.x = Mathf.Clamp(targetPos.x, -10f, 10f); // Example bounds for x-axis
-        targetPos.y = Mathf.Clamp(targetPos.y, -10f, 10f); // Example bounds for y-axis
-
+        // No clamping constraints, camera follows the player freely
         transform.position = Vector3.Lerp(transform.position, targetPos, lerpSpeed * Time.deltaTime);
     }
 
-
-private void FindTarget()
-{
-    // Search for the game object with the "Player" tag
-    GameObject player = GameObject.FindGameObjectWithTag("Player");
-
-    if (player != null)
+    private void FindTarget()
     {
-        // Set the target to the player
-        target = player.transform;
-    }
-    else
-    {
-        Debug.LogError("No game object found with the 'Player' tag.");
-    }
-}
+        // Search for the game object with the "Player" tag
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
 
+        if (player != null)
+        {
+            // Set the target to the player
+            target = player.transform;
+        }
+        else
+        {
+            Debug.LogError("No game object found with the 'Player' tag.");
+        }
+    }
 }

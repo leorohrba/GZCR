@@ -7,6 +7,8 @@ public class JetBaseController : MonoBehaviour
     public float maxSpeed = 35f;
     public float maxAngularSpeed = 100f;
     public float acceleration = 18f; // Acceleration rate
+    public float deceleration = 36f; // Deceleration rate (higher than acceleration)
+    public float damping = 0.9f; // Damping factor to reduce velocity gradually
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -27,23 +29,19 @@ public class JetBaseController : MonoBehaviour
 
         if ((Input.GetKey(KeyCode.W)) || (Input.GetKey(KeyCode.UpArrow))) // Move forward
         {
-            // animator.SetBool("IsWalking", true);
             moveInput = 1f;
         }
         else if ((Input.GetKey(KeyCode.S)) || (Input.GetKey(KeyCode.DownArrow))) // Move backward
         {
-            // animator.SetBool("IsWalking", true);
-            moveInput = -25f;
+            moveInput = -1f; // Use -1 for reversing
         }
 
         if (Input.GetKey(KeyCode.A)) // Rotate left
         {
-            // animator.SetBool("IsWalking", true);
             rotationInput = 1f;
         }
         else if (Input.GetKey(KeyCode.D)) // Rotate right
         {
-            // animator.SetBool("IsWalking", true);
             rotationInput = -1f;
         }
 
@@ -61,13 +59,14 @@ public class JetBaseController : MonoBehaviour
     void FixedUpdate()
     {
         // Gradually increase or decrease the current speed based on moveInput
-        if (moveInput != 0)
+        float targetSpeed = moveInput * moveSpeed;
+        float rate = moveInput == 0 ? deceleration : acceleration;
+        currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, rate * Time.fixedDeltaTime);
+
+        // Apply damping to reduce velocity gradually
+        if (moveInput == 0)
         {
-            currentSpeed = Mathf.MoveTowards(currentSpeed, moveInput * moveSpeed, acceleration * Time.fixedDeltaTime);
-        }
-        else
-        {
-            currentSpeed = Mathf.MoveTowards(currentSpeed, 0, acceleration * Time.fixedDeltaTime);
+            currentSpeed *= damping;
         }
 
         // Calculate the desired velocity
@@ -89,5 +88,12 @@ public class JetBaseController : MonoBehaviour
         {
             rb.angularVelocity = Mathf.Sign(rb.angularVelocity) * maxAngularSpeed;
         }
+    }
+
+    // Reset velocity on collision
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
     }
 }

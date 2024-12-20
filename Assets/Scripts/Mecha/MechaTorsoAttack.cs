@@ -3,6 +3,8 @@ using System.Collections;
 
 public class MechaTorsoAttack : MonoBehaviour
 {
+    public GameObject swingProjectilePrefab; // Assign the projectile prefab in the Inspector
+    public Transform swingFirePoint;         // The position where the projectile spawns
     public GameObject projectilePrefab; // Assign the projectile prefab in the Inspector
     public Transform firePoint;        // The position where the projectile spawns
     public float projectileSpeed = 10f; // Speed of the projectile
@@ -74,6 +76,14 @@ public class MechaTorsoAttack : MonoBehaviour
     {
         isSwinging = true;
         animator.SetTrigger("Swing"); // Assuming you have a "SwingAttack" trigger in the Animator
+
+        GameObject projectile = Instantiate(swingProjectilePrefab, swingFirePoint.position, swingFirePoint.rotation);
+
+        // Get the Rigidbody2D of the projectile and set its velocity
+        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+        rb.linearVelocity = firePoint.up * projectileSpeed; // Adjust direction based on the cannon's rotation
+        nextFireTime = Time.time + animationDuration;
+
 
         // Add a small delay before allowing another swing
         Invoke(nameof(ResetSwing), animationDuration);

@@ -80,4 +80,10 @@ public class MechaController : MonoBehaviour
             rb.angularVelocity = Mathf.Sign(rb.angularVelocity) * maxAngularSpeed;
         }
     }
+        // Reset velocity on collision
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+    }
 }
